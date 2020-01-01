@@ -63,7 +63,7 @@ isVisible: false
     <style jsx>
     {`
     .second{
-height: 103vh;
+height: 104vh;
 width: 100vh;
 margin-top: -1px;
 

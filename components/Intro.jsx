@@ -39,7 +39,7 @@ export default class Intro extends Component {
     <style jsx>
     {`
     .first{
-height: 101vh;
+height: 100vh;
 width: 100vh
 
     }

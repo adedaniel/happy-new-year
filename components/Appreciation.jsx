@@ -27,7 +27,7 @@ isVisible: false
 <h3 className="textRobot mt-5"></h3>
 <Love width="80%"/>
 <br/>
-<small className="textRobot">an 8hr code</small>
+<small className="textRobot">an eight-hour code</small>
 <br/>
 <br/>
 <p className="textRobot">Wanna reach out?</p>
@@ -51,25 +51,32 @@ isVisible: false
      
     <div>
 <p>-</p>
+
     <h4 className='textRobot'>
-  
-    <Typed
-                strings={["This message will self-destruct in...^500\n `3...`^1000\n `2..`^1000\n `1.`^1000\n `Just Kidding😇`", "Happy New Year 🎊"]}
+    {this.state.isVisible ? 
+    
+        <Typed
+                strings={["This message will self-destruct in...^500\n `3...`^1000\n `2..`^1000\n `1.`^1000\n `Poof! ☁`", "Happy New Year 🎊"]}
                 typeSpeed={50}
                 backSpeed={10}
                 backDelay={2000}
                 smartBackspace= {false}
                 cursorChar={'_'}
             />
+ : ""}
+            
+  
  
     
     </h4>
     </div>
     </VisibilitySensor>
     </div>
+    <h6 className="textRobot">Thanks to Mike and Debby for their patience</h6>
+
     </div>
+
     <div className={`scrollDown text-white `}>
-  
 
 </div>
     </div>
@@ -81,7 +88,7 @@ isVisible: false
     font-size: 30px
 }
     .fourth{
-height: 101vh;
+height: 102vh;
 width: 100vh;
 margin-top: -1px;
 
