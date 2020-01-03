@@ -10,10 +10,11 @@
     "deploy": "npm run build && npm run export"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "next": "9.1.6",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "react-responsive-carousel": "^3.1.51",
+    "react-transition-group": "^1.2.1",
     "react-typed": "^1.2.0",
     "react-visibility-sensor": "^5.1.1"
   }

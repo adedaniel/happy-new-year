@@ -1,6 +1,6 @@
-import React from 'react'
-import Head from 'next/head'
-import Wrapper from '../components/Wrapper'
+import React from "react";
+import Head from "next/head";
+import Wrapper from "../components/Wrapper";
 
 const Home = () => (
   <div>
@@ -8,13 +8,10 @@ const Home = () => (
       <link rel="icon" href="/icon.png" />
     </Head>
 
-    <Wrapper/>
+    <Wrapper />
 
-  
-    <style jsx>{`
-   
-    `}</style>
+    <style jsx>{``}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
