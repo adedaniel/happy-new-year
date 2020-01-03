@@ -74,7 +74,7 @@ export default class NewYearMessage extends Component {
                     </div>
                     <div className="carousel-item">
                       <h3>
-                        Remember that ‘No one can go back and back a brand new
+                        Remember that ‘No one can go back and make a brand new
                         start. But anyone can start from now and make a brand
                         new ending.‘ – Carl Bard.
                       </h3>
