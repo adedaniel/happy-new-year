@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot,  1`] = `
+<button
+  data-testid="button"
+>
+  made forrrr testing
+</button>
+`;
+
+exports[`matches snapshot,  2`] = `
+<button
+  data-testid="button"
+>
+  save
+</button>
+`;

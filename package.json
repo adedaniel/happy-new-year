@@ -4,18 +4,27 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "test": "jest",
+    "testwatch": "jest --watchAll",
     "build": "next build",
     "start": "next start",
     "export": "next export",
     "deploy": "npm run build && npm run export"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.5.0",
     "@zeit/next-css": "^1.0.1",
+    "animate.css": "^3.7.2",
     "next": "9.1.6",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-transition-group": "^1.2.1",
     "react-typed": "^1.2.0",
     "react-visibility-sensor": "^5.1.1"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^10.0.3",
+    "jest": "^25.4.0",
+    "react-test-renderer": "^16.13.1"
   }
 }

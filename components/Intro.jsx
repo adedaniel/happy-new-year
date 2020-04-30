@@ -60,7 +60,7 @@ export default class Intro extends Component {
             .scrollDown {
               position: fixed;
               bottom: 0;
-              width: 100%;
+              width: 86%;
             }
 
             .angles {
